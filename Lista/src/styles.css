@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&family=Kanit&family=Montserrat:wght@500&family=Roboto&family=Shippori+Antique&family=Sofia+Sans:wght@500&display=swap');
+
+body{
+    background-image: url(/assets/back.jpg);
+    background-size: cover;
+}

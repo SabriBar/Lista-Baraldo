@@ -43,11 +43,6 @@ export class DirectivasComponent implements OnInit {
       nombre: 'Susan',
       año: 3,
       aprobado: true
-    },
-    {
-      nombre: 'Constanza',
-      año: 3,
-      aprobado: true
     }
   ]
 
