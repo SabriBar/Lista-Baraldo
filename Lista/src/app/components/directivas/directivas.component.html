@@ -1,1 +1,5 @@
-<p>directivas works!</p>
+<h1>Listado Alumnos</h1>
+
+<ul>
+    <li *ngFor="let alumnos of listaAlumnos" [ngClass]="alumnos.aprobado ? 'aprobo' : 'desaprobo'">{{alumnos.nombre}}</li>
+</ul>
