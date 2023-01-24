@@ -8,7 +8,7 @@
         <ol start="1">
             <li *ngFor="let alumnos of listaAlumnos" [ngClass]="alumnos.aprobado ? 'aprobo' : 'desaprobo'">
                 {{alumnos.nombre}}
-                <div class="ingresante" *ngIf="alumnos.ingresante == true">lorem</div>
+                <div class="ingresante" *ngIf="alumnos.ingresante == true">Invisible</div>
             </li>
         </ol>
     </div>
