@@ -11,37 +11,42 @@ export class DirectivasComponent implements OnInit {
   listaAlumnos: Array<Alumno> = [
     {
       nombre: 'Jerry',
-      año: 2,
+      ingresante: false,
       aprobado: true
     },
     {
       nombre: 'George',
-      año: 1,
+      ingresante: true,
       aprobado: false
     },
     {
       nombre: 'Elaine',
-      año: 2,
+      ingresante: false,
       aprobado: true
     },
     {
       nombre: 'Larry',
-      año: 3,
+      ingresante: false,
       aprobado: true
     },
     {
       nombre: 'Kramer',
-      año: 1,
+      ingresante: true,
       aprobado: false
     },
     {
       nombre: 'Newman',
-      año: 1,
+      ingresante: true,
       aprobado: false
     },
     {
       nombre: 'Susan',
-      año: 3,
+      ingresante: false,
+      aprobado: true
+    },
+    {
+      nombre: 'Morty',
+      ingresante: true,
       aprobado: true
     }
   ]

@@ -1,5 +1,5 @@
 export interface Alumno{
     nombre: string;
-    año: number;
+    ingresante: boolean;
     aprobado: boolean;
 }

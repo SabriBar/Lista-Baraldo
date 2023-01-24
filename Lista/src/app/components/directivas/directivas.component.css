@@ -3,7 +3,7 @@
     font-family: 'EB Garamond', serif;
     letter-spacing: .05rem;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 4%;
 }
 
 .container-flex{
@@ -14,11 +14,11 @@
 }
 
 .colores{
+    margin-top: 3rem;
     font-family: 'Roboto', sans-serif;
-    font-size: 90%;
+    font-size: 100%;
     font-weight: bolder;
 }
-
 
 .texto{
     display: inline-table;
@@ -27,8 +27,8 @@
   }
 
   .colores img{
-    width: 30%;
-    height: 10%;
+    width: 25%;
+    height: 12%;
   }
 
 .aprobo{
@@ -45,15 +45,15 @@ li {
     letter-spacing: .05rem;
     font-size: 110%;
     font-weight: bolder;
-    margin: 25%;
+    margin: 28%;
     color: #000;
     position: relative;
     text-transform: uppercase;
   }
   
-  li::before {
+  .ingresante::before {
     background: hsl(45 100% 70%);
-    content: "";
+    content: " ";
     inset: 0;
     position: absolute;
     transform: scaleX(0);
@@ -62,8 +62,13 @@ li {
     z-index: -1;
   }
   
-  li:hover::before {
-    transform: scaleX(1.9);
+  .ingresante:hover::before {
+    transform: scaleX(2);
     transform-origin: left;
+  }
+
+  .ingresante{
+    color: transparent;
+    margin-top: -20px;
   }
   

@@ -7,27 +7,19 @@
     <div class="list">
         <ol start="1">
             <li *ngFor="let alumnos of listaAlumnos" [ngClass]="alumnos.aprobado ? 'aprobo' : 'desaprobo'">
-                {{alumnos.nombre}}</li>
+                {{alumnos.nombre}}
+                <div class="ingresante" *ngIf="alumnos.ingresante == true">lorem</div>
+            </li>
         </ol>
     </div>
 
     <div class="colores">
         <p style="color: green;">APROBADO</p>
+        <br>
         <p style="color: red;">DESAPROBADO</p>
         <br>
         <img src="../../../assets/yellow.jpg">
-        <p class="texto">Primer Año</p>
-        <br>
-        <br>
-        <br>
-        <img src="../../../assets/green.jpg">
-        <p class="texto">Segundo Año</p>
-        <br>
-        <br>
-        <br>
-        <img src="../../../assets/blue.jpg">
-        <p class="texto">Tercer Año</p>
-
+        <p class="texto">INGRESANTE</p>
     </div>
 
 </div>
